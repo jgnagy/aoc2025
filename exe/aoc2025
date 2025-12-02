@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift("#{File.dirname(__FILE__)}/../lib")
+require "aoc2025"
+
+day = ARGV[0].to_i
+part = ARGV[1].to_i
+sample = ARGV.include?("--sample")
+
+raise "Invalid day" if day < 1 || day > 25
+raise "Invalid part" unless [1, 2].include?(part)
+
+result = Aoc2025.run(day, part, sample: sample)
+
+puts "Day #{day}, part #{part}: #{result}"
