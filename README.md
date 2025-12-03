@@ -2,6 +2,14 @@
 
 My personal solutions to [Advent of Code 2025](https://adventofcode.com/) written in Ruby.
 
+## Adding a New Solution/Day
+
+```bash
+./exe/add_day.sh X
+```
+
+Where `X` is the day number (1-12). This will create the necessary files and boilerplate code for the new day's solution.
+
 ## Running Tests
 
 ```bash
