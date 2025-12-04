@@ -44,7 +44,7 @@ add_solution_file() {
 # frozen_string_literal: true
 
 module Aoc2025
-  # Solution for day 3.
+  # Solution for day ${day_number}.
   class Day${day_number} < Solution
   end
 end
